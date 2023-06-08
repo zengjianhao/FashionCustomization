@@ -1,2 +1,5 @@
 # Fashion-Image-Generation-Based-on-Editing-Clue
-Fashion Image Generation Based on Editing Clue
+
+## Abstract
+
+In this paper, we propose a general model for fashion editing that generates images based on user-defined editing instructions, such as semantic segmentation masks, keypoints, or sketches. This task involves spatial manipulations of a reference image with editing clues. However, current spatial transformation methods struggle to handle large-scale spatial deformation effectively. To address this issue, we propose a model which adopts feature flow transformation and local attention mechanism to enhance the ability of editing clues to guide fashion image generation. Specifically, our model comprises two modules: 1) a feature flow warping network that finds the corresponding relationship between the editing clue and reference image and generates a coarse transformed image; 2) a fashion image generative network that guides the rendering of detailed textures according to the transformed image from the previous stage. A local attention layer is added to enhance the quality of the synthesized image. Finally, experiments on three tasks (pose editing, clothing editing and face editing) verify the effectiveness of the method and the adaptability to multiple tasks.
